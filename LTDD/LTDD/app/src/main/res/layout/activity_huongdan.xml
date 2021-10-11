@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundhuongdan"
+    tools:context=".Huongdan">
+
+    <TextView
+        android:id="@+id/txtHuongDan"
+        android:layout_width="339dp"
+        android:layout_height="518dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:text="Người chơi sẽ có sẵn 1 số tiền khởi điểm. Người chơi đặt tiền vào một hoặc nhiều linh vật mà mình muốn, có thể đặt nhiều linh vật trong một lượt chơi. Mỗi lần đặt cược, số tiền cược giới hạn bởi tiền hiện có của người chơi và tiền cược tăng thêm 1 lần với mỗi click cược.
+Nhấn nút bắt đầu để xúc xắc! Nếu trong ba viên xúc xắc xuất hiện linh vật mà người chơi đã đặt cược tiền, họ sẽ lấy lại tiền cược và được trả thêm số tiền bằng với số lần linh vật đó xuất hiện nhân với số tiền cược. Nếu linh vật người chơi chọn không xuất hiện, số tiền đặt cược bị mất.
+Khi bạn không còn đủ tiền đặt cược bạn chỉ cần thoát ra, sau 3 phút số tiền của bạn được thưởng thêm là 1000"
+        android:textColor="#fde424"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+</LinearLayout>
